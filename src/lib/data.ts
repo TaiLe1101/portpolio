@@ -23,22 +23,7 @@ export const links: Link[] = [
   },
 ];
 
-export const projectsData: ProjectInfo[] = [
-  {
-    title: "Snowlake theme",
-    description: "lorem",
-    tags: ["React", "NextJs"],
-    imageUrl: "/image1.png",
-    link: "https://www.google.com",
-  },
-  {
-    title: "Snowlake theme",
-    description: "lorem",
-    tags: ["React", "NextJs"],
-    imageUrl: "/image1.png",
-    link: "https://www.google.com",
-  },
-];
+export const projectsData: ProjectInfo[] = [];
 
 export const skillsData = [
   "HTML",
@@ -51,4 +36,6 @@ export const skillsData = [
   "MySQL",
   "ReactJs",
   "NextJs",
+  "ExpressJs",
+  "...",
 ];

@@ -66,11 +66,16 @@ function Intro() {
       >
         <h1 className="mb-10 mt-4 text-2xl sm:text-4xl">
           <span className="font-medium !leading-[1.5] ">
-            Grow your business with a new website.
+            Xin chào! Mình là{" "}
+            <b>
+              <i>Lê Trần Tấn Tài</i>
+            </b>
+            , một lập trình viên đầy đam mê và sáng tạo
           </span>{" "}
           <p className="text-[14px]">
-            Frontend is a full-service creative studio creating beautiful
-            digital experiences and products
+            Với kinh nghiệm chinh chiến qua nhiều dự án thực tế trong lĩnh vực
+            phát triển website, mình luôn sẵn sàng để hiện thực hóa những ý
+            tưởng tuyệt vời.
           </p>
         </h1>
       </Fade>
@@ -86,7 +91,7 @@ function Intro() {
         className="flex sm:flex-row items-center justify-center gap-4 px-4 text-lg font-medium"
       >
         <Link
-          href="#"
+          href="#contact"
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray950 dark:bg-white/10 active:scale-105 transition"
         >
           Connect <Mail color="#9ca3af" />

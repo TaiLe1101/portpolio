@@ -27,7 +27,7 @@ const About = () => {
           damping={1e-1}
           triggerOnce={true}
         >
-          <SectionHeading>About Me</SectionHeading>
+          <SectionHeading>Về tôi</SectionHeading>
         </Fade>
         <div className="grid xl:grid-cols-2 lg:text-start">
           <div className="flex-1">
@@ -40,7 +40,7 @@ const About = () => {
                   damping={1e-1}
                   triggerOnce={true}
                 >
-                  <h3 className="font-bold mt-6">Our Mission</h3>
+                  <h3 className="font-bold mt-6">Sứ mệnh của tôi</h3>
                 </Fade>
                 <Fade
                   direction="up"
@@ -50,10 +50,10 @@ const About = () => {
                   triggerOnce={true}
                 >
                   <p className="mt-2 leading-relaxed text-sm text-gray-700 dark:text-white/70">
-                    We Believe that a website is the foundation of a successful
-                    online presence, and our goal is to help businesses
-                    establish a trong digital presence. Our process begin with
-                    understanding your business goals
+                    Tôi tin rằng một website là nền tảng vững chắc của sự hiện
+                    diện trực tuyến thành công. Mục tiêu của tôi là giúp các
+                    doanh nghiệp xây dựng một dấu ấn số mạnh mẽ. Quá trình của
+                    tôi bắt đầu bằng việc thấu hiểu mục tiêu kinh doanh của bạn.
                   </p>
                 </Fade>
                 <Fade
@@ -63,7 +63,7 @@ const About = () => {
                   damping={1e-1}
                   triggerOnce={true}
                 >
-                  <h3 className="font-bold mt-6">Our Mission</h3>
+                  <h3 className="font-bold mt-6">Tôi là ai ?</h3>
                 </Fade>
                 <Fade
                   direction="up"
@@ -73,10 +73,10 @@ const About = () => {
                   triggerOnce={true}
                 >
                   <p className="mt-2 leading-relaxed text-sm text-gray-700 dark:text-white/70">
-                    We Believe that a website is the foundation of a successful
-                    online presence, and our goal is to help businesses
-                    establish a trong digital presence. Our process begin with
-                    understanding your business goals
+                    Tôi là <b>Lê Trần Tấn Tài</b>, một lập trình viên đam mê
+                    sáng tạo và phát triển web với kinh nghiệm làm việc qua các
+                    dự án thực tế. Với phương châm luôn học hỏi và cập nhật, tôi
+                    sẽ giúp doanh nghiệp của bạn vươn xa hơn trên thị trường số.
                   </p>
                 </Fade>
               </div>
