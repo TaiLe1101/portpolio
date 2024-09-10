@@ -1,4 +1,5 @@
 import ActiveSectionContextProvider from "@/containers/active-section";
+import ThemeContextProvider from "@/containers/theme-context";
 import React from "react";
 
 type ProviderProps = {
@@ -7,6 +8,8 @@ type ProviderProps = {
 
 export default function Providers({ children }: ProviderProps) {
   return (
-    <ActiveSectionContextProvider>{children}</ActiveSectionContextProvider>
+    <ActiveSectionContextProvider>
+      <ThemeContextProvider>{children}</ThemeContextProvider>
+    </ActiveSectionContextProvider>
   );
 }

@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <nav>
       <HamburgerMenu links={links} />
-      <Header />
+      <Header links={links} />
     </nav>
   );
 }

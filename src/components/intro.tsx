@@ -17,7 +17,11 @@ function Intro() {
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
-    <section id="home" className="mb-28 max-w-[75rem] text-center sm:mb-0">
+    <section
+      id="home"
+      className="mb-28 max-w-[75rem] text-center sm:mb-0"
+      ref={ref}
+    >
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
@@ -67,8 +71,8 @@ function Intro() {
             Grow your business with a new website.
           </span>{" "}
           <p className="text-[14px]">
-            Frontend is a full-service creative studio creating beatiful digital
-            experiences and products
+            Frontend is a full-service creative studio creating beautiful
+            digital experiences and products
           </p>
         </h1>
       </Fade>
@@ -85,21 +89,21 @@ function Intro() {
       >
         <Link
           href="#"
-          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none forcus:scale-110 hover:scale-110 hover:bg-gray950 dark:bg-white/10 active:scale-105 transition"
+          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray950 dark:bg-white/10 active:scale-105 transition"
         >
           Connect <Mail color="#9ca3af" />
         </Link>
         <a
           href="#"
           target="_blank"
-          className="bg-gray-900 p-4 text-white flex items-center gap-2 rounded-full forcus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          className="bg-gray-900 p-4 text-white flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border-black dark:bg-white/10 dark:text-white/60"
         >
           <BsLinkedin />
         </a>
         <a
-          href="#"
+          href="https://github.com/TaiLe1101"
           target="_blank"
-          className="bg-gray-900 p-4 text-white flex items-center gap-2 rounded-full forcus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          className="bg-gray-900 p-4 text-white flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border-black dark:bg-white/10 dark:text-white/60"
         >
           <FaGithubSquare />
         </a>

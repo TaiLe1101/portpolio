@@ -1,8 +1,9 @@
+import Navbar from "@/components/navbar";
+import Providers from "@/containers/provider";
+import ThemeSwitch from "@/components/theme-controller";
 import type { Metadata } from "next";
 import { Sora } from "next/font/google";
 import "./globals.css";
-import Providers from "@/components/provider";
-import Navbar from "@/components/navbar";
 
 const sora = Sora({
   subsets: ["latin"],
@@ -21,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="!scroll-smooth">
       <body
         className={`${sora.variable} font-sora flex flex-col bg-gray-50 text-gray-950 relative dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90 antialiased`}
       >
@@ -30,6 +31,7 @@ export default function RootLayout({
         <Providers>
           <Navbar />
           {children}
+          <ThemeSwitch />
         </Providers>
       </body>
     </html>
