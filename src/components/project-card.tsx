@@ -1,6 +1,6 @@
 import { ProjectInfo } from "@/lib/types";
-import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
+import Image from "next/image";
 import { useRef } from "react";
 
 type ProjectProps = ProjectInfo;
@@ -8,7 +8,6 @@ type ProjectProps = ProjectInfo;
 export default function Project({
   description,
   imageUrl,
-  link,
   tags,
   title,
 }: ProjectProps) {

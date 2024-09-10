@@ -1,20 +1,18 @@
 "use client";
 
+import { Mail } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
-import { Mail } from "lucide-react";
 
 //Animation
+import { useSectionInView } from "@/lib/useInView";
 import { motion } from "framer-motion";
 import { Fade } from "react-awesome-reveal";
-import { useSectionInView } from "@/lib/useInView";
-import { useActiveSectionContext } from "@/containers/active-section";
 
 function Intro() {
   const { ref } = useSectionInView("#home", 0.5);
-  const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
     <section
