@@ -3,7 +3,6 @@
 import { Mail } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { BsLinkedin } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
 
 //Animation
@@ -66,11 +65,8 @@ function Intro() {
       >
         <h1 className="mb-10 mt-4 text-2xl sm:text-4xl">
           <span className="font-medium !leading-[1.5] ">
-            Xin chào! Mình là{" "}
-            <b>
-              <i>Lê Trần Tấn Tài</i>
-            </b>
-            , một lập trình viên đầy đam mê và sáng tạo
+            Xin chào! Mình là <b>Lê Trần Tấn Tài</b>, một lập trình viên đầy đam
+            mê và sáng tạo
           </span>{" "}
           <p className="text-[14px]">
             Với kinh nghiệm chinh chiến qua nhiều dự án thực tế trong lĩnh vực
@@ -96,13 +92,13 @@ function Intro() {
         >
           Connect <Mail color="#9ca3af" />
         </Link>
-        <a
+        {/* <a
           href="#"
           target="_blank"
           className="bg-gray-900 p-4 text-white flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border-black dark:bg-white/10 dark:text-white/60"
         >
           <BsLinkedin />
-        </a>
+        </a> */}
         <a
           href="https://github.com/TaiLe1101"
           target="_blank"
